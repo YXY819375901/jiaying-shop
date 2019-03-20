@@ -22,13 +22,17 @@ public interface Constants {
 		String MSG_EMAIL = "email";
 		//会员token
 		String TOKEN_MEMBER = "TOKEN_MEMBER";
+		// 支付token
+		String TOKEN_PAY = "TOKEN_pay";
 		//用户有效期90天
 		Long TOKEN_MEMBER_TIME =  (long) (60*60*24*90);
 		int COOKIE_TOKEN_MEMBER_TIME = 60*60*24*90;
-	
+		Long PAY_TOKEN_MEMBER_TIME =(long)  (60 * 15 );
 		//cookie 会员token名称
 		String COOKIE_MEMBER_TOKEN = "cookie_member_token";
-		
+		// 支付token
+		String PAY_SUCCESS = "success";
+		String PAY_FAIL = "fail";
 		
 }
 	

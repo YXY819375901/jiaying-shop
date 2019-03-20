@@ -32,5 +32,11 @@
 			<artifactId>sdk4j</artifactId>
 			<version>1.0</version>
 		</dependency>
+		<dependency>
+			<groupId>com.jiaying</groupId>
+			<artifactId>jiaying-shop-api-pay</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
   </dependencies>
 </project>
